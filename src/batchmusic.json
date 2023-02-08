@@ -1,0 +1,34 @@
+{
+    "Music": [
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artist": {"S": "Electric Light Orchestra"},
+                  "SongTitle": {"S": "Mr Blue Sky"},
+                  "AlbumTitle": {"S": "Out of the Blue"},
+                  "SongYear": {"S": "1977"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artist": {"S": "Gorrilaz"},
+                  "SongTitle": {"S": "Clint Eastwood"},
+                  "AlbumTitle": {"S": "Gorrilaz"},
+                  "SongYear": {"S": "2001"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artist": {"S": "Gorrilaz"},
+                  "SongTitle": {"S": "Tomorrow Comes Today"},
+                  "AlbumTitle": {"S": "Gorrilaz"},
+                  "SongYear": {"S": "2001"}
+                }
+            }
+        }
+      ]
+}
